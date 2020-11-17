@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     [Header("旋轉速度"),Range(0.5f,20f)]
     public float turn = 1.5f;
     [Header("縮放"),Range(0f,5f)]
-    public float size = 5f;
+    public float size = 0.5f;
     [Header("太空人動畫元件")]
     public Animator aniAstronaut;
     [Header("機器人動畫元件")]
